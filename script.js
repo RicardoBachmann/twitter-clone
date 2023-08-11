@@ -1,5 +1,3 @@
-function someFunction() {
-  console.log("hello");
-}
+import { tweetsData } from "./data.js";
 
-someFunction();
+console.log(tweetsData);
