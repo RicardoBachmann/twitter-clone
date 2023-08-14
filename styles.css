@@ -21,6 +21,10 @@ header {
   width: 290px;
 }
 
+header {
+  padding-bottom: 25px;
+}
+
 button {
   background-color: #1da1f2;
   color: white;
@@ -47,4 +51,35 @@ textarea {
 img {
   border-radius: 50%;
   width: 50px;
+}
+
+.tweet-input-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tweet {
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.tweet-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tweet-details {
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.tweet-detail {
+  display: flex;
+  gap: 4px;
 }
