@@ -25,6 +25,18 @@ header {
   padding-bottom: 25px;
 }
 
+.fa-solid {
+  color: #999;
+}
+
+.liked {
+  color: red;
+}
+
+.retweeted {
+  color: lime;
+}
+
 button {
   background-color: #1da1f2;
   color: white;
@@ -61,7 +73,7 @@ img {
 
 .tweet {
   border-top: 1px solid lightgray;
-  padding: 20px;
+  padding: 20px 0 0 0;
   width: 100%;
   margin: 15px 0;
 }
