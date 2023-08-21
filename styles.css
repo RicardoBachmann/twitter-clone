@@ -95,3 +95,7 @@ img {
   display: flex;
   gap: 4px;
 }
+
+.hidden {
+  display: none;
+}
